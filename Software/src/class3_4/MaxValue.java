@@ -1,4 +1,4 @@
-package class3;
+package class3_4;
 
 import java.util.Arrays;
 import java.util.Random;
