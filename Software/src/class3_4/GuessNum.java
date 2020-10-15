@@ -72,6 +72,7 @@ public class GuessNum
 				if (inputs[i] == answers[i])
 					a++;
 			}
+			
 			b = b - a;
 			if (a == num_count)
 			{
