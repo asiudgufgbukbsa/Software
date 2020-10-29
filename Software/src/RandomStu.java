@@ -27,7 +27,7 @@ public class RandomStu
 		Collections.shuffle(students);
 		for (int i = 0; i < count; i++)
 		{
-			System.out.println(students.get(i));
+			System.out.print(students.get(i) + ", ");
 		}
 	}
 

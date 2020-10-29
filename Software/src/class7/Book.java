@@ -11,24 +11,27 @@ public class Book
 	{
 		if(m_pageNum < 200)
 			m_pageNum = 200;
-		pageNum = m_pageNum;
+		this.pageNum = m_pageNum;
 	}
 	
 	int getPageNum()
 	{
-		return pageNum;
+		return this.pageNum;
 	}
 	
-	void setTitle(String m_title)
-	{
-		title = m_title;
-	}
 	
-	String getTitle()
+	
+	public String getTitle()
 	{
 		return title;
 	}
-	
+
+	public void setTitle(String title)
+	{
+		this.title = title;
+		
+	}
+
 	void showInfo()
 	{
 		System.out.println("Title: " + title + "; pageNum: " + pageNum);

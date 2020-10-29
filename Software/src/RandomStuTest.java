@@ -6,7 +6,7 @@ public class RandomStuTest
 	{
 		RandomStu randomStu = new RandomStu();
 		randomStu.initial();
-		randomStu.pickGuys(3);
+		randomStu.pickGuys(4);
 	}
 
 }
