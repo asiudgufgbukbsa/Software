@@ -3,11 +3,7 @@ package class8;
 
 
 public class PM extends Employee
-{
-	
-	
-	
-	
+{	
 
 	double  exp, bonus;
 	
